@@ -10,6 +10,12 @@ export default function Social() {
                     style={{position: 'absolute', bottom: '1%', right: '11%'}}
                 />
             </a>
+            {/* <a href='https://discordapp.com/users/297770280863137802' target='_blank' rel='noopener noreferrer'>
+                <FloatButton 
+                    icon={<DiscordOutlined />}
+                    style={{position: 'absolute', bottom: '1%', right: '6%'}}
+                />
+            </a> */}
             <a href='https://www.linkedin.com/in/darko-djokic-22b615301/' target='_blank' rel='noopener noreferrer'>
                 <FloatButton 
                     icon={<LinkedinOutlined />}
