@@ -4,19 +4,13 @@ import { GithubOutlined, DiscordOutlined, LinkedinOutlined } from '@ant-design/i
 export default function Social() {
     return (
         <>
-            <a href='https://github.com/Neleac/Mesekai' target='_blank' rel='noopener noreferrer'>
+            <a href='https://github.com/sislight224/Mesekaki' target='_blank' rel='noopener noreferrer'>
                 <FloatButton 
                     icon={<GithubOutlined />}
                     style={{position: 'absolute', bottom: '1%', right: '11%'}}
                 />
             </a>
-            <a href='https://discordapp.com/users/297770280863137802' target='_blank' rel='noopener noreferrer'>
-                <FloatButton 
-                    icon={<DiscordOutlined />}
-                    style={{position: 'absolute', bottom: '1%', right: '6%'}}
-                />
-            </a>
-            <a href='https://www.linkedin.com/in/caelenw/' target='_blank' rel='noopener noreferrer'>
+            <a href='https://www.linkedin.com/in/darko-djokic-22b615301/' target='_blank' rel='noopener noreferrer'>
                 <FloatButton 
                     icon={<LinkedinOutlined />}
                     style={{position: 'absolute', bottom: '1%', right: '1%'}}
